@@ -84,7 +84,7 @@ def geo_plot():
 	nums=['43.9', '50', '60', '70', '80', '90.5']
 	ax_legend = fig.add_axes([0.35, 0.14, 0.3, 0.03], zorder=3)
 	cb = mpl.colorbar.ColorbarBase(ax_legend, cmap='winter', orientation='horizontal')
-	cb.ax.set_xticklabels(nums)
+	cb.ax.set_xticklabels(nums, fontsize=13)
 
 
 
